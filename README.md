@@ -1,8 +1,5 @@
 # varstore-mob
 
-Certainly! Here's the content in a `.md` file:
-
-````markdown
 # Varstore - AsyncStorage Helper for React Native
 
 ## Overview
@@ -16,6 +13,7 @@ Install the `@react-native-async-storage/async-storage` package in your React Na
 ```bash
 npm install @react-native-async-storage/async-storage
 ```
+
 ````
 
 Then, install the `varstore` package:
@@ -106,11 +104,4 @@ const demoAsyncStorage = async () => {
 demoAsyncStorage();
 ```
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-```
-
-Copy and paste this content into a file with a `.md` extension, for example, `README.md`.
-```
+````
