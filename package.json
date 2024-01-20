@@ -1,0 +1,17 @@
+{
+  "name": "varstore-mob",
+  "version": "0.0.1",
+  "description": "easier way to save variables into AsyncStorage",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "varstore"
+  ],
+  "author": "sarvesh savaliya",
+  "license": "ISC",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.21.0"
+  }
+}
