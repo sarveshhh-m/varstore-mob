@@ -14,7 +14,6 @@ Install the `@react-native-async-storage/async-storage` package in your React Na
 npm install @react-native-async-storage/async-storage
 ```
 
-````
 
 Then, install the `varstore` package:
 
