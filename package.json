@@ -13,5 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.21.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarveshhh-github/varstore-mob.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarveshhh-github/varstore-mob/issues"
+  },
+  "homepage": "https://github.com/sarveshhh-github/varstore-mob#readme"
 }
