@@ -1,6 +1,6 @@
 {
   "name": "varstore-mob",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "easier way to save variables into AsyncStorage",
   "main": "index.ts",
   "scripts": {
