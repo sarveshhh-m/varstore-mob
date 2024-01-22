@@ -1,6 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 export default {
-  set: async (key: string, data: string, { Console = false }) =>
+  set: async (key: string, data: string, { Console = true }) =>
     await AsyncStorage.setItem(key, data)
       .then(() => {
         Console && console.log("!saved");
@@ -18,13 +18,13 @@ export default {
     await AsyncStorage.clear().then(() => {
       Console && console.log("storage cleared");
     }),
-  multiset: async (keyValuePairs: [string, string][], { Console = false }) =>
+  multiset: async (keyValuePairs: [string, string][], { Console = true }) =>
     await AsyncStorage.multiSet(keyValuePairs)
       .then(() => {
         Console && console.log("Multiple variables set ");
       })
       .catch((err) => console.log(err)),
-  multiget: async (keys: string[], { Console = false }) =>
+  multiget: async (keys: string[], { Console = true }) =>
     await AsyncStorage.multiGet(keys)
       .then((response) => {
         Console && console.log(response);
